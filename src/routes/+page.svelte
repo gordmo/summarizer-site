@@ -11,7 +11,7 @@
 	let error = "";
 
 	async function summarizeText() {
-		const url = "http://localhost:5000/summarize";
+		const url = "https://vercel.com/gordmo/summarizer-backend/fXaon1RU1DoWhAe9JYDipNY8xg95/summarize";
 		const data = { text: text, percentage: 0.5 };
 		const options = {
 		method: "POST",
